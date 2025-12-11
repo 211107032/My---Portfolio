@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={clsx(inter.variable, poppins.variable, "font-sans bg-dark text-white h-screen w-screen overflow-hidden")}>
+            <body className={clsx(inter.variable, poppins.variable, "font-sans text-white h-screen w-screen overflow-hidden")}>
                 {children}
             </body>
         </html>

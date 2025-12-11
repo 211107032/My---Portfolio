@@ -30,7 +30,7 @@ export default function Home() {
     };
 
     return (
-        <main className="flex h-screen w-screen overflow-hidden bg-dark relative">
+        <main className="flex h-screen w-screen overflow-hidden relative">
             {/* Background Particles/Animation can go here */}
             <div className="absolute inset-0 z-0 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')] filter contrast-150 brightness-100"></div>
 
