@@ -1,0 +1,21 @@
+
+> milind-rajput-portfolio@0.1.0 build
+> next build 
+
+   ▲ Next.js 14.1.0
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./src/components/sections/Skills.tsx:5:76
+Type error: '"react-icons/si"' has no exported member named 'SiPowerbi'. Did you mean 'SiPowers'?
+
+[0m [90m 3 |[39m     [33mFaPython[39m[33m,[39m [33mFaDatabase[39m[33m,[39m [33mFaBrain[39m[33m,[39m [33mFaRobot[39m[33m,[39m [33mFaTools[39m[33m,[39m [33mFaCode[39m[0m
+[0m [90m 4 |[39m } [36mfrom[39m [32m"react-icons/fa"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mSiTensorflow[39m[33m,[39m [33mSiPytorch[39m[33m,[39m [33mSiScikitlearn[39m[33m,[39m [33mSiOpencv[39m[33m,[39m [33mSiMysql[39m[33m,[39m [33mSiGit[39m[33m,[39m [33mSiPowerbi[39m } [36mfrom[39m [32m"react-icons/si"[39m[33m;[39m[0m
+[0m [90m   |[39m                                                                            [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m[0m
+[0m [90m 7 |[39m [36mconst[39m skillCategories [33m=[39m [[0m
+[0m [90m 8 |[39m     {[0m

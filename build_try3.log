@@ -1,0 +1,33 @@
+
+> milind-rajput-portfolio@0.1.0 build
+> next build 
+
+   ▲ Next.js 14.1.0
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    73.4 kB         158 kB
+├ ○ /_not-found                          882 B          85.2 kB
+├ λ /api/blog                            0 B                0 B
+└ λ /api/contact                         0 B                0 B
++ First Load JS shared by all            84.3 kB
+  ├ chunks/69-684234321b8ea2ca.js        29 kB
+  ├ chunks/fd9d1056-803f3afc98c64581.js  53.4 kB
+  └ other shared chunks (total)          1.96 kB
+
+
+○  (Static)   prerendered as static content
+λ  (Dynamic)  server-rendered on demand using Node.js
+

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import {
     FaPython, FaDatabase, FaBrain, FaRobot, FaTools, FaCode
 } from "react-icons/fa";
-import { SiTensorflow, SiPytorch, SiScikitlearn, SiOpencv, SiMysql, SiGit, SiPowerbi } from "react-icons/si";
+import { SiTensorflow, SiPytorch, SiScikitlearn, SiOpencv, SiMysql, SiGit } from "react-icons/si";
 
 const skillCategories = [
     {

@@ -1,0 +1,26 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 66A3-C284
+
+ Directory of c:\Users\milind rajput\Desktop\Portfolio
+
+05-01-2026  17:03    <DIR>          .
+05-01-2026  11:36    <DIR>          ..
+30-11-2025  16:09                48 .env.example
+30-11-2025  18:11                14 .gitignore
+05-01-2026  16:01    <DIR>          .next
+05-12-2025  17:05    <DIR>          backend
+05-12-2025  19:47               806 copy_debug.py
+05-01-2026  17:03                 0 dir.txt
+30-11-2025  16:37               206 next-env.d.ts
+05-01-2026  16:52               222 next.config.mjs
+30-11-2025  16:37    <DIR>          node_modules
+30-11-2025  16:50           228,189 package-lock.json
+05-01-2026  16:53               979 package.json
+30-11-2025  16:05               101 postcss.config.js
+05-12-2025  20:03    <DIR>          public
+30-11-2025  17:01    <DIR>          src
+30-11-2025  16:05               835 tailwind.config.ts
+30-11-2025  16:03                 6 test.txt
+30-11-2025  16:05               841 tsconfig.json
+              12 File(s)        232,247 bytes
+               7 Dir(s)  18,881,470,464 bytes free

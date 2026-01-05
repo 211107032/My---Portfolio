@@ -1,0 +1,39 @@
+
+> milind-rajput-portfolio@0.1.0 build
+> next build 
+
+   ▲ Next.js 14.1.0
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+Error: Please define the MONGODB_URI environment variable inside .env.local
+    at 1494 (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:1636)
+    at t (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:127)
+    at 804 (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:485)
+    at t (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:127)
+    at r (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:2037)
+    at c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:2068
+    at t.X (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:1181)
+    at c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:2050
+    at Object.<anonymous> (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\contact\route.js:1:2094)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+Error: Please define the MONGODB_URI environment variable inside .env.local
+    at 1494 (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:1813)
+    at t (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:127)
+    at 8094 (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:496)
+    at t (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:127)
+    at r (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:2214)
+    at c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:2245
+    at t.X (c:\Users\milind rajput\Desktop\Portfolio\.next\server\webpack-runtime.js:1:1181)
+    at c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:2227
+    at Object.<anonymous> (c:\Users\milind rajput\Desktop\Portfolio\.next\server\app\api\blog\route.js:1:2272)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+
+> Build error occurred
+Error: Failed to collect page data for /api/blog
+    at c:\Users\milind rajput\Desktop\Portfolio\node_modules\next\dist\build\utils.js:1258:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  type: 'Error'
+}
